@@ -1,6 +1,15 @@
 _: {
   imports = [
+    # Main Settings
+    ./settings.nix
+    ./keymaps.nix
+
+    # Git
+    ./plugins/git/lazygit.nix
+
     # Utils
-    ./config/utils/whichkey.nix
+    ./plugins/utils/web-devicons.nix
+    ./plugins/utils/telescope.nix
+    ./plugins/utils/whichkey.nix
   ];
 }
