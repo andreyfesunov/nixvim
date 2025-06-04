@@ -1,18 +1,15 @@
 {
-  description = "A very basic flake";
+  description = "A nixvim configuration";
 
   inputs = {
-    nixpkgs.follows = "nixvim/nixpkgs";
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     nixvim.url = "github:nix-community/nixvim";
+    flake-parts.url = "github:hercules-ci/flake-parts";
   };
 
   outputs =
-    { nixpkgs, nixvim, ... }:
-    let
-      config = {
-        colorschemes.gruvbox.enable = true;
-      };
-
+    { nixvim, flake-parts, ... }@inputs:
+    flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [
         "x86_64-linux"
         "aarch64-linux"
@@ -20,19 +17,31 @@
         "aarch64-darwin"
       ];
 
-      forAllSystems = nixpkgs.lib.genAttrs systems;
-    in
-    {
-      packages = forAllSystems (
-        system:
+      perSystem =
+        { system, pkgs, ... }:
         let
+          nixvimLib = nixvim.lib.${system};
           nixvim' = nixvim.legacyPackages.${system};
-          nvim = nixvim'.makeNixvim config;
+          nixvimModule = {
+            inherit pkgs; 
+            module = import ./config; # import the module directly
+            # You can use `extraSpecialArgs` to pass additional arguments to your module files
+            extraSpecialArgs = {
+              # inherit (inputs) foo;
+            };
+          };
+          nvim = nixvim'.makeNixvimWithModule nixvimModule;
         in
         {
-          inherit nvim;
-          default = nvim;
-        }
-      );
+          checks = {
+            # Run `nix flake check .` to verify that your config is not broken
+            default = nixvimLib.check.mkTestDerivationFromNixvimModule nixvimModule;
+          };
+
+          packages = {
+            # Lets you run `nix run .` to start nixvim
+            default = nvim;
+          };
+        };
     };
 }
