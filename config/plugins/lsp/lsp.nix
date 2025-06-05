@@ -9,9 +9,8 @@
       inlayHints = true;
 
       servers = {
-        jsonls = {
-          enable = true;
-        };
+        jsonls.enable = true; 
+        nixd.enable = true;
       };
 
       keymaps = {
