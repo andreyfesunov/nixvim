@@ -4,6 +4,9 @@ _: {
     ./settings.nix
     ./keymaps.nix
 
+    # LSP
+    ./plugins/lsp/lsp.nix
+
     # Git
     ./plugins/git/lazygit.nix
 
