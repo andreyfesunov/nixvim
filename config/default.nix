@@ -10,6 +10,9 @@ _: {
     # Cmp
     ./plugins/cmp/autopairs.nix
 
+    # Editor
+    ./plugins/editor/oil.nix
+
     # Git
     ./plugins/git/lazygit.nix
 
