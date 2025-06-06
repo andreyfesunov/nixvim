@@ -7,6 +7,9 @@ _: {
     # LSP
     ./plugins/lsp/lsp.nix
 
+    # Cmp
+    ./plugins/cmp/autopairs.nix
+
     # Git
     ./plugins/git/lazygit.nix
 
