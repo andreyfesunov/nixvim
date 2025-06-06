@@ -6,6 +6,8 @@
     };
   };
 
+  plugins.oil-git-status.enable = true;
+
   keymaps = [
     {
       mode = "n";
