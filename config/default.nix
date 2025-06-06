@@ -8,6 +8,7 @@ _: {
     ./plugins/lsp/lsp.nix
 
     # Cmp
+    ./plugins/cmp/cmp.nix
     ./plugins/cmp/autopairs.nix
 
     # Editor
