@@ -18,6 +18,7 @@ _: {
     ./plugins/editor/treesitter.nix
     ./plugins/editor/indent-blankline.nix
     ./plugins/editor/airline.nix
+    ./plugins/editor/startify.nix
 
     # Git
     ./plugins/git/lazygit.nix
