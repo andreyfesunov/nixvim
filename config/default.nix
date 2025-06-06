@@ -6,6 +6,7 @@ _: {
 
     # LSP
     ./plugins/lsp/lsp.nix
+    ./plugins/lsp/fidget.nix
 
     # Cmp
     ./plugins/cmp/cmp.nix
