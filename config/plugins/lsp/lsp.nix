@@ -10,6 +10,7 @@
 
       servers = {
         jsonls.enable = true; 
+        yamlls.enable = true;
         nixd.enable = true;
       };
 
