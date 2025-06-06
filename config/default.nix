@@ -10,9 +10,13 @@ _: {
     # Cmp
     ./plugins/cmp/cmp.nix
     ./plugins/cmp/autopairs.nix
+    ./plugins/cmp/schemastore.nix
 
     # Editor
     ./plugins/editor/oil.nix
+    ./plugins/editor/navic.nix
+    ./plugins/editor/treesitter.nix
+    ./plugins/editor/indent-blankline.nix
 
     # Git
     ./plugins/git/lazygit.nix
