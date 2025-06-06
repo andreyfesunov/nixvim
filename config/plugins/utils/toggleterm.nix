@@ -3,7 +3,7 @@
     enable = true;
     settings.size = 20;
   };
-  keymaps = [ 
+  keymaps = [
     {
       mode = "n";
       key = "<leader>tv";

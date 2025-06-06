@@ -7,6 +7,7 @@ _: {
     # LSP
     ./plugins/lsp/lsp.nix
     ./plugins/lsp/fidget.nix
+    ./plugins/lsp/conform.nix
 
     # Cmp
     ./plugins/cmp/cmp.nix

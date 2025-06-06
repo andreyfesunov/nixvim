@@ -8,7 +8,7 @@
       inlayHints = true;
 
       servers = {
-        jsonls.enable = true; 
+        jsonls.enable = true;
         yamlls.enable = true;
         nixd.enable = true;
       };
@@ -46,13 +46,13 @@
           "[d" = {
             action = "goto_next";
             desc = "Next Diagnostic";
-           };
+          };
           "]d" = {
             action = "goto_prev";
             desc = "Prev Diagnostic";
           };
         };
-      }; 
+      };
     };
   };
 

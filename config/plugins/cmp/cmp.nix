@@ -29,11 +29,11 @@
           {
             name = "path"; # file system paths
             keywordLength = 3;
-          } 
+          }
         ];
 
         window = {
-          completion.border = "solid";          
+          completion.border = "solid";
           documentation.border = "solid";
         };
 
@@ -52,7 +52,7 @@
 
   extraConfigLua = ''
     local cmp = require('cmp')
-    
+
     -- Use cmdline & path source for ':'
     cmp.setup.cmdline(':', {
       mapping = cmp.mapping.preset.cmdline(),

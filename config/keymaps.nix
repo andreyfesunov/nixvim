@@ -92,7 +92,10 @@
 
     # Clipboard
     {
-      mode = ["n" "v"];
+      mode = [
+        "n"
+        "v"
+      ];
       key = "<leader>YY";
       action = "\"+y";
       options = {
@@ -100,7 +103,10 @@
       };
     }
     {
-      mode = ["n" "v"];
+      mode = [
+        "n"
+        "v"
+      ];
       key = "<leader>PP";
       action = "\"+p";
       options = {
@@ -108,7 +114,10 @@
       };
     }
     {
-      mode = ["n" "v"];
+      mode = [
+        "n"
+        "v"
+      ];
       key = "<leader>Yy";
       action = "\"*y";
       options = {
@@ -116,7 +125,10 @@
       };
     }
     {
-      mode = ["n" "v"];
+      mode = [
+        "n"
+        "v"
+      ];
       key = "<leader>Pp";
       action = "\"*p";
       options = {
@@ -125,4 +137,3 @@
     }
   ];
 }
-
