@@ -27,5 +27,6 @@ _: {
     ./plugins/utils/web-devicons.nix
     ./plugins/utils/telescope.nix
     ./plugins/utils/whichkey.nix
+    ./plugins/utils/toggleterm.nix
   ];
 }
