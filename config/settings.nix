@@ -28,6 +28,21 @@
 
       # Enable mouse support
       mouse = "a";
+
+      # Disable swap file creation
+      swapfile = false;
+
+      # Wrap long lines at a character in 'breakat'
+      linebreak = true;
+
+      # Enable smart indentation
+      smartindent = true;
+
+      # Number of spaces to use for each step of (auto)indent
+      shiftwidth = 2;
+
+      # Enable break indent
+      breakindent = true;
     };
   };
 }
