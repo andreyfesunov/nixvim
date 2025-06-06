@@ -3,10 +3,10 @@
     enable = true;
     keymaps = {
       "<leader>ff" = {
-	action = "find_files";
-	options = {
-	  desc = "Find files";
-	};
+	      action = "find_files";
+	      options = {
+	        desc = "Find files";
+	      };
       };
       "<leader>ft" = {
         action = "live_grep";

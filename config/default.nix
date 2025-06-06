@@ -15,9 +15,9 @@ _: {
 
     # Editor
     ./plugins/editor/oil.nix
-    ./plugins/editor/navic.nix
     ./plugins/editor/treesitter.nix
     ./plugins/editor/indent-blankline.nix
+    ./plugins/editor/airline.nix
 
     # Git
     ./plugins/git/lazygit.nix

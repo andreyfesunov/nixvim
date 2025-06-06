@@ -1,5 +1,5 @@
 {
-  plugins.navic = {
+  plugins.airline = {
     enable = true;
   };
 }
