@@ -1,5 +1,5 @@
 {
-  plugins.airline = {
+  plugins.lualine = {
     enable = true;
   };
 }

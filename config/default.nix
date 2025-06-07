@@ -18,7 +18,7 @@ _: {
     ./plugins/editor/oil.nix
     ./plugins/editor/treesitter.nix
     ./plugins/editor/indent-blankline.nix
-    ./plugins/editor/airline.nix
+    ./plugins/editor/lualine.nix
     ./plugins/editor/startify.nix
     ./plugins/editor/fzf-lua.nix
 
