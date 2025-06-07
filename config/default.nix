@@ -20,13 +20,13 @@ _: {
     ./plugins/editor/indent-blankline.nix
     ./plugins/editor/airline.nix
     ./plugins/editor/startify.nix
+    ./plugins/editor/fzf-lua.nix
 
     # Git
     ./plugins/git/lazygit.nix
 
     # Utils
     ./plugins/utils/web-devicons.nix
-    ./plugins/utils/telescope.nix
     ./plugins/utils/whichkey.nix
     ./plugins/utils/toggleterm.nix
   ];
