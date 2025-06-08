@@ -24,6 +24,7 @@ _: {
 
     # Git
     ./plugins/git/lazygit.nix
+    ./plugins/git/gitsigns.nix
 
     # Utils
     ./plugins/utils/web-devicons.nix
