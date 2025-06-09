@@ -11,6 +11,7 @@
         jsonls.enable = true;
         yamlls.enable = true;
         nixd.enable = true;
+        elixirls.enable = true;
       };
 
       keymaps = {
