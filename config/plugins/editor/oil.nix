@@ -3,6 +3,13 @@
     enable = true;
     settings = {
       experimental_watch_for_changes = true;
+      keymaps = {
+        "<C-l>" = false;
+        "<C-h>" = false;
+        "<C-s>" = false;
+        "<C-t>" = false;
+        "<C-r>" = "actions.refresh";
+      };
     };
   };
 
