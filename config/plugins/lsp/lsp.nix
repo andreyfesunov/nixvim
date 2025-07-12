@@ -12,6 +12,12 @@
         yamlls.enable = true;
         nixd.enable = true;
         elixirls.enable = true;
+        rust_analyzer = {
+          enable = true;
+
+          installRustc = true;
+          installCargo = true;
+        };
       };
 
       keymaps = {
