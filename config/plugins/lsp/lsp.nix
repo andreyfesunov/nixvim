@@ -38,6 +38,10 @@
             action = "references";
             desc = "Go to References";
           };
+          "<leader>la" = {
+            action = "code_action";
+            desc = "Code Actions";
+          };
         };
 
         diagnostic = {
