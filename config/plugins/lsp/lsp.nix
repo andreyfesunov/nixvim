@@ -2,6 +2,7 @@
   plugins = {
     lsp-lines.enable = true;
     lsp-format.enable = true;
+    rustaceanvim.enable = true;
 
     lsp = {
       enable = true;
@@ -12,12 +13,6 @@
         yamlls.enable = true;
         nixd.enable = true;
         elixirls.enable = true;
-        rust_analyzer = {
-          enable = true;
-
-          installRustc = true;
-          installCargo = true;
-        };
       };
 
       keymaps = {
