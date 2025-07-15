@@ -21,6 +21,7 @@ _: {
     ./plugins/editor/lualine.nix
     ./plugins/editor/startify.nix
     ./plugins/editor/fzf-lua.nix
+    ./plugins/editor/barbecue.nix
 
     # Git
     ./plugins/git/lazygit.nix

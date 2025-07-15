@@ -1,0 +1,3 @@
+{
+  plugins.barbecue.enable = true;
+}
