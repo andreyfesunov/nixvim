@@ -13,6 +13,7 @@
         yamlls.enable = true;
         nixd.enable = true;
         elixirls.enable = true;
+        omnisharp.enable = true;
       };
 
       keymaps = {
