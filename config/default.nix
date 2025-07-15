@@ -22,6 +22,8 @@ _: {
     ./plugins/editor/startify.nix
     ./plugins/editor/fzf-lua.nix
     ./plugins/editor/barbecue.nix
+    ./plugins/editor/scrollview.nix
+    ./plugins/editor/colorscheme.nix
 
     # Git
     ./plugins/git/lazygit.nix
