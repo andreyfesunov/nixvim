@@ -14,6 +14,7 @@
         nixd.enable = true;
         elixirls.enable = true;
         omnisharp.enable = true;
+        gopls.enable = true;
       };
 
       keymaps = {
