@@ -36,7 +36,7 @@
             action = "rename";
             desc = "Rename";
           };
-          "<ledaer>lr" = {
+          "<leader>lr" = {
             action = "references";
             desc = "Go to References";
           };
