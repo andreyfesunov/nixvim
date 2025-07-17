@@ -3,7 +3,6 @@
     enable = true;
     settings = {
       view_options.show_hidden = true;
-      experimental_watch_for_changes = true;
       keymaps = {
         "<C-l>" = false;
         "<C-h>" = false;
