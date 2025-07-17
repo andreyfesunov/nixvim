@@ -16,6 +16,7 @@
         omnisharp.enable = true;
         gopls.enable = true;
         ts_ls.enable = true;
+        angularls.enable = true;
       };
 
       keymaps = {
