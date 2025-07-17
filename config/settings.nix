@@ -32,8 +32,11 @@
       # Disable swap file creation
       swapfile = false;
 
-      # Wrap long lines at a character in 'breakat'
-      linebreak = true;
+      # Disable line break
+      linebreak = false;
+
+      # Disable wrap line
+      wrap = false;
 
       # Enable smart indentation
       smartindent = true;
