@@ -24,6 +24,7 @@ _: {
     ./plugins/editor/barbecue.nix
     ./plugins/editor/scrollview.nix
     ./plugins/editor/colorscheme.nix
+    ./plugins/editor/harpoon.nix
 
     # Git
     ./plugins/git/lazygit.nix
