@@ -2,6 +2,17 @@
   globals.mapleader = " ";
 
   keymaps = [
+    # Buffer Navigation
+    {
+      mode = "n";
+      key = "<Tab>";
+      action = ":bnext<cr>";
+      options = {
+        noremap = true;
+        silent = true;
+      };
+    }
+
     # Navigation
     {
       mode = "n";
