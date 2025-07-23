@@ -17,6 +17,7 @@
         gopls.enable = true;
         ts_ls.enable = true;
         angularls.enable = true;
+        pyright.enable = true;
       };
 
       keymaps = {
