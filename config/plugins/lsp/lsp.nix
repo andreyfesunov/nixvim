@@ -18,6 +18,10 @@
         ts_ls.enable = true;
         angularls.enable = true;
         basedpyright.enable = true;
+        solidity_ls = {
+          enable = true;
+          package = null; # npm i -g vscode-solidity-server
+        };
       };
 
       keymaps = {
