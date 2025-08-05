@@ -25,6 +25,7 @@ _: {
     ./plugins/editor/scrollview.nix
     ./plugins/editor/colorscheme.nix
     ./plugins/editor/harpoon.nix
+    ./plugins/editor/precognition.nix
 
     # Git
     ./plugins/git/lazygit.nix
