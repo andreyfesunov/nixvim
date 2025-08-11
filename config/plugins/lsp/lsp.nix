@@ -17,7 +17,7 @@
         gopls.enable = true;
         ts_ls.enable = true;
         angularls.enable = true;
-        basedpyright.enable = true;
+        jedi_language_server.enable = true;
         solidity_ls = {
           enable = true;
           package = null; # npm i -g vscode-solidity-server
