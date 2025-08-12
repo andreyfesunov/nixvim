@@ -17,7 +17,17 @@
         gopls.enable = true;
         ts_ls.enable = true;
         angularls.enable = true;
-        basedpyright.enable = true;
+        basedpyright = {
+          enable = true;
+          settings = {
+            basedpyright = {
+              analysis = {
+                autoImportCompletions = true;
+                diagnosticMode = "workspace";
+              };
+            };
+          };
+        };
         solidity_ls = {
           enable = true;
           package = null; # npm i -g vscode-solidity-server
