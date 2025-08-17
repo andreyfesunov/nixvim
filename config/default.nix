@@ -4,15 +4,8 @@ _: {
     ./settings.nix
     ./keymaps.nix
 
-    # LSP
-    ./plugins/lsp/lsp.nix
-    ./plugins/lsp/fidget.nix
-    ./plugins/lsp/conform.nix
-
-    # Cmp
-    ./plugins/cmp/cmp.nix
-    ./plugins/cmp/autopairs.nix
-    ./plugins/cmp/schemastore.nix
+    # CoC (replaces builtin LSP + cmp) and handles completion, formatting, pairs
+    ./plugins/coc/coc.nix
 
     # Editor
     ./plugins/editor/oil.nix
