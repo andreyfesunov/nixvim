@@ -1,0 +1,1 @@
+{"cs-class":{"prefix":["csclass","class"],"body":["namespace ${1:MyCompany.MyProject};","","public class ${2:ClassName}","{","    $0","}"],"description":"C#: class with namespace"},"cs-record":{"prefix":["csrecord","record"],"body":["namespace ${1:MyCompany.MyProject};","","public record ${2:RecordName}(${3:Props});"],"description":"C#: record with namespace"}}

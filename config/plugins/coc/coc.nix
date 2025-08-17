@@ -1,6 +1,9 @@
 { pkgs, ... }:
 {
-  extraPlugins = [ pkgs.vimPlugins.coc-nvim ];
+  extraPlugins = [
+    pkgs.vimPlugins.coc-nvim
+    pkgs.vimPlugins.friendly-snippets
+  ];
   # Ensure Node.js (for coc) and nil (nix LSP) are available
   extraPackages = [
     pkgs.nodejs
@@ -35,6 +38,7 @@
       -- Extra formatters/providers
       'coc-stylua',
       'coc-sh',
+      'coc-snippets',
     }
 
     -- Configure CoC: nix LSP, format on save, Prettier, Emmet, HTML autoclose tags
@@ -120,4 +124,11 @@
       vim.fn.CocAction('runCommand', 'emmet.expandAbbreviation')
     end, vim.tbl_extend('force', opts, { desc = 'Emmet expand abbreviation' }))
   '';
+
+  # VSCode-style snippets available to coc-snippets
+  extraFiles = {
+    "snippets/solidity.json".text = builtins.readFile ../../snippets/solidity.json;
+    "snippets/csharp.json".text = builtins.readFile ../../snippets/csharp.json;
+    "snippets/php.json".text = builtins.readFile ../../snippets/php.json;
+  };
 }
