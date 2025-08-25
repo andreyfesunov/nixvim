@@ -99,6 +99,7 @@
     keymap('n', '<leader>lr', '<Plug>(coc-references)', vim.tbl_extend('force', opts, { desc = 'Go to References' }))
     keymap('n', '<leader>lR', '<Plug>(coc-rename)', vim.tbl_extend('force', opts, { desc = 'Rename' }))
     keymap('n', '<leader>la', '<Plug>(coc-codeaction)', vim.tbl_extend('force', opts, { desc = 'Code Actions' }))
+    keymap('n', '<leader>lo', ':CocList outline<CR>', vim.tbl_extend('force', opts, { desc = 'Code Outline' }))
 
     keymap('n', '<leader>lD', ':CocDiagnostics<CR>', vim.tbl_extend('force', opts, { desc = 'Diagnostics' }))
     keymap('n', '[d', '<Plug>(coc-diagnostic-next)', vim.tbl_extend('force', opts, { desc = 'Next Diagnostic' }))
