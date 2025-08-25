@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   extraPlugins = [
     pkgs.vimPlugins.coc-nvim
     pkgs.vimPlugins.friendly-snippets
@@ -118,11 +117,6 @@
     _G.__coc_fallback_tab = function()
       return "\t"
     end
-
-    -- Emmet: expand abbreviation on <leader>le
-    keymap('n', '<leader>le', function()
-      vim.fn.CocAction('runCommand', 'emmet.expandAbbreviation')
-    end, vim.tbl_extend('force', opts, { desc = 'Emmet expand abbreviation' }))
   '';
 
   # VSCode-style snippets available to coc-snippets
