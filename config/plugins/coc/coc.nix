@@ -38,6 +38,7 @@
       'coc-stylua',
       'coc-sh',
       'coc-snippets',
+      'coc-svg'
     }
 
     -- Configure CoC: nix LSP, format on save, Prettier, Emmet, HTML autoclose tags
@@ -126,4 +127,20 @@
     "snippets/csharp.json".text = builtins.readFile ../../snippets/csharp.json;
     "snippets/php.json".text = builtins.readFile ../../snippets/php.json;
   };
+
+  autoCmd = [
+    {
+      event = ["BufEnter" "FileType"];
+      pattern = "*.svg";
+      callback = {
+        __raw = ''
+          function()
+            local opts = { buffer = true, silent = true }
+
+            vim.keymap.set('n', '<leader>sv', ':CocCommand svg.showSvg<CR>', vim.tbl_extend('force', opts, { desc = 'Show SVG' }))
+          end
+        '';
+      };
+    }
+  ];
 }
