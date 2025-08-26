@@ -12,25 +12,25 @@
       mode = "n";
       key = "<leader>bl";
       action = "<CMD>FzfLua buffers<CR>";
-      options = {
-        desc = "Buffers List";
-      };
+      options.desc = "Find in Buffers";
     }
     {
       mode = "n";
       key = "<leader>bg";
       action = "<CMD>FzfLua live_grep<CR>";
-      options = {
-        desc = "Find in Text (Live Grep)";
-      };
+      options.desc = "Find in Text (Live Grep)";
     }
     {
       mode = "n";
       key = "<leader>bf";
       action = "<CMD>FzfLua files<CR>";
-      options = {
-        desc = "Find Files";
-      };
+      options.desc = "Find in Files";
+    }
+    {
+      mode = "n";
+      key = "<leader>br";
+      action = "<CMD>FzfLua resume<CR>";
+      options.desc = "Resume";
     }
   ];
 
@@ -42,7 +42,8 @@
       keymap = {
         fzf = {
           ["tab"] = "down",
-          ["shift-tab"] = "up"
+          ["shift-tab"] = "up",
+          ["alt-c"] = "select-all+accept"
         }
       }
     })
