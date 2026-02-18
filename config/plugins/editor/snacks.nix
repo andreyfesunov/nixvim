@@ -43,10 +43,6 @@
         enabled = true,
       },
 
-      lazygit = {
-        enabled = true,
-      },
-
       rename = {
         enabled = true,
       },
@@ -121,26 +117,6 @@
       key = "<leader>bq";
       action = ":lua require('snacks').picker.qflist()<CR>";
       options.desc = "Find in Quickfix List";
-    }
-
-    # Git
-    {
-      mode = "n";
-      key = "<leader>gl";
-      action = ":lua require('snacks').lazygit.open()<CR>";
-      options.desc = "LazyGit (root dir)";
-    }
-    {
-      mode = "n";
-      key = "<leader>gs";
-      action = ":lua require('snacks').picker.git_status()<CR>";
-      options.desc = "Git Status";
-    }
-    {
-      mode = "n";
-      key = "<leader>gd";
-      action = ":lua require('snacks').picker.git_diff()<CR>";
-      options.desc = "Git Diff";
     }
 
     # Terminal
