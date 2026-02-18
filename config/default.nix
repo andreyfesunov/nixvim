@@ -21,6 +21,7 @@ _: {
 
     # Git
     ./plugins/git/gitsigns.nix
+    ./plugins/git/neogit.nix
 
     # Utils
     ./plugins/utils/web-devicons.nix

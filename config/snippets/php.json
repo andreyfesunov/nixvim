@@ -1,1 +1,0 @@
-{"php-class":{"prefix":["phpclass","class"],"body":["<?php","declare(strict_types=1);","","namespace ${1:App\\Domain};","","class ${2:ClassName}","{","    $0","}",""],"description":"PHP: class with namespace"}}

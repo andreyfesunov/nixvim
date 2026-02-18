@@ -1,5 +1,3 @@
 {
-  colorschemes.cyberdream = {
-    enable = true;
-  };
+  colorschemes.cyberdream.enable = true;
 }

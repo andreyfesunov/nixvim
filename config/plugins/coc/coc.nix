@@ -121,13 +121,6 @@
     end
   '';
 
-  # VSCode-style snippets available to coc-snippets
-  extraFiles = {
-    "snippets/solidity.json".text = builtins.readFile ../../snippets/solidity.json;
-    "snippets/csharp.json".text = builtins.readFile ../../snippets/csharp.json;
-    "snippets/php.json".text = builtins.readFile ../../snippets/php.json;
-  };
-
   autoCmd = [
     {
       event = ["BufEnter" "FileType"];
