@@ -19,7 +19,7 @@
   keymaps = [
     {
       mode = "n";
-      key = "<leader>e";
+      key = "<leader>fo";
       action = "<cmd>Oil<CR>";
       options = {
         desc = "Oil (File Explorer)";

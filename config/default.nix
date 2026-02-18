@@ -9,6 +9,7 @@ _: {
 
     # Editor
     ./plugins/editor/oil.nix
+    ./plugins/editor/neotree.nix
     ./plugins/editor/treesitter.nix
     ./plugins/editor/lualine.nix
     ./plugins/editor/barbecue.nix
