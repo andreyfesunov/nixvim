@@ -1,5 +1,5 @@
-{ pkgs, ... }:
-{
+# treesitter - parser generator tool
+{pkgs, ...}: {
   plugins.treesitter = {
     enable = true;
     settings = {

@@ -1,3 +1,4 @@
+# neogit - powerful git interface inspired by Magit
 {
   plugins.neogit.enable = true;
 

@@ -1,3 +1,4 @@
+# oil - buffer-based file manager
 {
   plugins.oil = {
     enable = true;

@@ -1,3 +1,4 @@
+# harpoon - bookmark plugin
 {
   plugins.harpoon = {
     enable = true;

@@ -1,3 +1,4 @@
+# precognition - shows available motions
 {
   plugins.precognition = {
     enable = true;

@@ -1,6 +1,6 @@
-{ pkgs, ... }:
-{
-  extraPlugins = with pkgs.vimPlugins; [ snacks-nvim ];
+# snacks - big collection of useful plugins
+{pkgs, ...}: {
+  extraPlugins = with pkgs.vimPlugins; [snacks-nvim];
 
   extraConfigLua = ''
     -- Rename callback on oil rename
