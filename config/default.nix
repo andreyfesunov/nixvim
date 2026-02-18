@@ -15,7 +15,7 @@ _: {
     ./plugins/editor/scrollview.nix
     ./plugins/editor/colorscheme.nix
     ./plugins/editor/harpoon.nix
-    ./plugins/editor/startify.nix
+    ./plugins/editor/mini.nix
     ./plugins/editor/snacks.nix
 
     # Git
