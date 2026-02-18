@@ -12,6 +12,7 @@ _: {
     ./plugins/editor/neotree.nix
     ./plugins/editor/treesitter.nix
     ./plugins/editor/lualine.nix
+    ./plugins/editor/bufferline.nix
     ./plugins/editor/barbecue.nix
     ./plugins/editor/scrollview.nix
     ./plugins/editor/colorscheme.nix

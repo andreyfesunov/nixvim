@@ -12,38 +12,13 @@
         silent = true;
       };
     }
-
-    # Navigation
     {
       mode = "n";
-      key = "<C-k>";
-      action = ":wincmd k<CR>";
+      key = "<S-Tab>";
+      action = ":bprevious<cr>";
       options = {
-        desc = "Go to Up window";
-      };
-    }
-    {
-      mode = "n";
-      key = "<C-j>";
-      action = ":wincmd j<CR>";
-      options = {
-        desc = "Go to Bottom window";
-      };
-    }
-    {
-      mode = "n";
-      key = "<C-l>";
-      action = ":wincmd l<CR>";
-      options = {
-        desc = "Go to Right window";
-      };
-    }
-    {
-      mode = "n";
-      key = "<C-h>";
-      action = ":wincmd h<CR>";
-      options = {
-        desc = "Go to Left window";
+        noremap = true;
+        silent = true;
       };
     }
 
