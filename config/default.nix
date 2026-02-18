@@ -4,8 +4,12 @@ _: {
     ./settings.nix
     ./keymaps.nix
 
-    # CoC
-    ./plugins/coc/coc.nix
+    # LSP
+    ./plugins/lsp/default.nix
+    ./plugins/lsp/fidget.nix
+    ./plugins/lsp/none-ls.nix
+    ./plugins/lsp/trouble.nix
+    ./plugins/lsp/cmp.nix
 
     # Editor
     ./plugins/editor/oil.nix

@@ -1,3 +1,4 @@
+# mini - lots of utils, I'm using start screen and session manager
 {
   plugins.mini = {
     enable = true;
