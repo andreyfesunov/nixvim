@@ -16,7 +16,6 @@ _: {
     ./plugins/editor/scrollview.nix
     ./plugins/editor/colorscheme.nix
     ./plugins/editor/harpoon.nix
-    ./plugins/editor/precognition.nix
     ./plugins/editor/startify.nix
     ./plugins/editor/snacks.nix
 
