@@ -35,10 +35,6 @@
         }
       },
 
-      terminal = {
-        enabled = true,
-      },
-
       git = {
         enabled = true,
       },
@@ -117,14 +113,6 @@
       key = "<leader>bq";
       action = ":lua require('snacks').picker.qflist()<CR>";
       options.desc = "Find in Quickfix List";
-    }
-
-    # Terminal
-    {
-      mode = "n";
-      key = "<leader>t";
-      action = ":lua require('snacks').terminal.toggle()<CR>";
-      options.desc = "Toggle Terminal";
     }
   ];
 }
