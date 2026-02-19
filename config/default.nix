@@ -19,8 +19,10 @@ _: {
     ./plugins/editor/scrollview.nix
     ./plugins/editor/colorscheme.nix
     ./plugins/editor/harpoon.nix
-    ./plugins/editor/mini.nix
+    ./plugins/editor/mini-starter.nix
+    ./plugins/editor/mini-sessions.nix
     ./plugins/editor/snacks.nix
+    ./plugins/editor/spectre.nix
 
     # Git
     ./plugins/git/gitsigns.nix
