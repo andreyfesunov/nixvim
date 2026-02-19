@@ -6,7 +6,6 @@ _: {
 
     # LSP
     ./plugins/lsp/default.nix
-    ./plugins/lsp/fidget.nix
     ./plugins/lsp/none-ls.nix
     ./plugins/lsp/trouble.nix
     ./plugins/lsp/cmp.nix
@@ -23,6 +22,7 @@ _: {
     ./plugins/editor/mini-sessions.nix
     ./plugins/editor/mini-pick.nix
     ./plugins/editor/mini-pairs.nix
+    ./plugins/editor/mini-notify.nix
     ./plugins/editor/snacks.nix
     ./plugins/editor/spectre.nix
 
