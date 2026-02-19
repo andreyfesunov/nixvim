@@ -21,6 +21,7 @@ _: {
     ./plugins/editor/harpoon.nix
     ./plugins/editor/mini-starter.nix
     ./plugins/editor/mini-sessions.nix
+    ./plugins/editor/mini-pick.nix
     ./plugins/editor/snacks.nix
     ./plugins/editor/spectre.nix
 
