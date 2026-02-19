@@ -1,3 +1,4 @@
+# mini-pick - simple file picker
 {
   plugins.mini-pick.enable = true;
 
