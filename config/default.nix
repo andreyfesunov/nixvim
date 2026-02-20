@@ -19,6 +19,7 @@ _: {
     ./plugins/editor/colorscheme.nix
     ./plugins/editor/harpoon.nix
     ./plugins/editor/mini-starter.nix
+    ./plugins/editor/mini-comment.nix
     ./plugins/editor/mini-sessions.nix
     ./plugins/editor/mini-pick.nix
     ./plugins/editor/mini-pairs.nix
