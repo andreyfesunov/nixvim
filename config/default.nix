@@ -9,6 +9,7 @@ _: {
     ./plugins/lsp/none-ls.nix
     ./plugins/lsp/trouble.nix
     ./plugins/lsp/cmp.nix
+    ./plugins/lsp/lsp-format.nix
 
     # Editor
     ./plugins/editor/oil.nix
