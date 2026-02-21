@@ -11,5 +11,13 @@
         desc = "File Picker";
       };
     }
+    {
+      mode = "n";
+      key = "<leader>r";
+      action = "<cmd>lua MiniPick.builtin.grep_live()<cr>";
+      options = {
+        desc = "File Grep";
+      };
+    }
   ];
 }
