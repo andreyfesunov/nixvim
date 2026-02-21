@@ -19,6 +19,7 @@ _: {
     ./plugins/editor/scrollview.nix
     ./plugins/editor/colorscheme.nix
     ./plugins/editor/harpoon.nix
+    ./plugins/editor/quicker.nix
     ./plugins/editor/mini-starter.nix
     ./plugins/editor/mini-comment.nix
     ./plugins/editor/mini-sessions.nix
