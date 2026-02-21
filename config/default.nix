@@ -25,8 +25,6 @@ _: {
     ./plugins/editor/mini-pick.nix
     ./plugins/editor/mini-pairs.nix
     ./plugins/editor/mini-notify.nix
-    ./plugins/editor/snacks.nix
-    ./plugins/editor/spectre.nix
 
     # Git
     ./plugins/git/gitsigns.nix
