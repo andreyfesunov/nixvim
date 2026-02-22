@@ -13,12 +13,12 @@ _: {
 
     # Editor
     ./plugins/editor/oil.nix
+    ./plugins/editor/arrow.nix
     ./plugins/editor/treesitter.nix
     ./plugins/editor/lualine.nix
     ./plugins/editor/barbecue.nix
     ./plugins/editor/scrollview.nix
     ./plugins/editor/colorscheme.nix
-    ./plugins/editor/harpoon.nix
     ./plugins/editor/quicker.nix
     ./plugins/editor/mini-starter.nix
     ./plugins/editor/mini-comment.nix
