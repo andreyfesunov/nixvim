@@ -11,10 +11,7 @@
         installCargo = true;
         installRustc = true;
       };
-      typst_lsp = {
-        enable = true;
-        package = pkgs.typst;
-      };
+      tinymist.enable = true;
     };
     keymaps.lspBuf = {
       "gd" = "definition";
