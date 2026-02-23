@@ -26,6 +26,7 @@ _: {
     ./plugins/editor/mini-pick.nix
     ./plugins/editor/mini-pairs.nix
     ./plugins/editor/mini-notify.nix
+    ./plugins/editor/typst-preview.nix
 
     # Git
     ./plugins/git/gitsigns.nix
