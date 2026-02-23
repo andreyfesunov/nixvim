@@ -1,5 +1,4 @@
 # LSP Configuration
-{ pkgs, ... }:
 {
   plugins.lsp = {
     enable = true;
