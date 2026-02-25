@@ -1,4 +1,5 @@
 # LSP Configuration
+{ pkgs, ... }:
 {
   plugins.lsp = {
     enable = true;
@@ -10,7 +11,11 @@
         installCargo = true;
         installRustc = true;
       };
-      tinymist.enable = true;
+      tinymist.enable = true; # typst lsp
+      c3_lsp = {
+        enable = true;
+        package = pkgs.c3-lsp;
+      };
     };
     keymaps.lspBuf = {
       "gd" = "definition";
