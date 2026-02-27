@@ -16,6 +16,7 @@
         enable = true;
         package = pkgs.c3-lsp;
       };
+      csharp_ls.enable = true;
     };
     keymaps.lspBuf = {
       "gd" = "definition";
