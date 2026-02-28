@@ -13,6 +13,8 @@
       "gd" = "definition";
       "gr" = "references";
       "gi" = "implementation";
+      "ga" = "code_action";
+      "gR" = "rename";
       "K" = "hover";
     };
   };
