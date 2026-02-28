@@ -1,8 +1,8 @@
 # LSP Configuration
-{ pkgs, ... }:
 {
   plugins.lsp = {
     enable = true;
+    inlayHints = true;
     servers = {
       bashls.enable = true;
       nixd.enable = true;
@@ -12,10 +12,6 @@
         installRustc = true;
       };
       tinymist.enable = true; # typst lsp
-      c3_lsp = {
-        enable = true;
-        package = pkgs.c3-lsp;
-      };
       csharp_ls.enable = true;
     };
     keymaps.lspBuf = {
