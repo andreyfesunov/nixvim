@@ -6,11 +6,6 @@
     servers = {
       bashls.enable = true;
       nixd.enable = true;
-      rust_analyzer = {
-        enable = true;
-        installCargo = true;
-        installRustc = true;
-      };
       tinymist.enable = true; # typst lsp
       csharp_ls.enable = true;
     };
@@ -21,4 +16,5 @@
       "K" = "hover";
     };
   };
+  plugins.rustaceanvim.enable = true;
 }
