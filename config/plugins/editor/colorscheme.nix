@@ -3,22 +3,22 @@
   colorschemes.base16 = {
     enable = true;
     colorscheme = {
-      base00 = "#0A0A0A";
-      base01 = "#161616";
-      base02 = "#222222";
-      base03 = "#363636";
-      base04 = "#4A4A4A";
-      base05 = "#A8A8A8";
-      base06 = "#BEBEBE";
-      base07 = "#D0D0D0";
-      base08 = "#8A8A8A";
-      base09 = "#7A7A7A";
-      base0A = "#6A6A6A";
-      base0B = "#9A9A9A";
-      base0C = "#7A7A7A";
-      base0D = "#B0B0B0";
-      base0E = "#8A8A8A";
-      base0F = "#5A5A5A";
+      base00 = "#1C1C1C";
+      base01 = "#262626";
+      base02 = "#3A3A3A";
+      base03 = "#585858";
+      base04 = "#808080";
+      base05 = "#BEBEBE";
+      base06 = "#D0D0D0";
+      base07 = "#E8E8E8";
+      base08 = "#AF5F5F";
+      base09 = "#D7875F";
+      base0A = "#D7AF5F";
+      base0B = "#5F875F";
+      base0C = "#5F8787";
+      base0D = "#5F87AF";
+      base0E = "#875F87";
+      base0F = "#5F5F87";
     };
   };
 }
