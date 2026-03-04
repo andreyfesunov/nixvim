@@ -1,4 +1,5 @@
 # LSP Configuration
+{ pkgs, ... }:
 {
   plugins.lsp = {
     enable = true;
@@ -8,6 +9,10 @@
       nixd.enable = true;
       tinymist.enable = true; # typst lsp
       csharp_ls.enable = true;
+      ts_ls.enable = true;
+      html.enable = true;
+      cssls.enable = true;
+      angularls.enable = true;
     };
     keymaps.lspBuf = {
       "gd" = "definition";
