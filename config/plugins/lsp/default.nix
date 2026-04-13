@@ -1,5 +1,8 @@
 # LSP Configuration
-{ pkgs, ... }:
+{
+  # pkgs,
+  ...
+}:
 {
   plugins.lsp = {
     enable = true;
@@ -13,6 +16,7 @@
       html.enable = true;
       cssls.enable = true;
       angularls.enable = true;
+      clangd.enable = true;
     };
     keymaps.lspBuf = {
       "gd" = "definition";
