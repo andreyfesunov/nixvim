@@ -17,6 +17,7 @@
       cssls.enable = true;
       angularls.enable = true;
       clangd.enable = true;
+      elixirls.enable = true;
     };
     keymaps.lspBuf = {
       "gd" = "definition";
