@@ -17,7 +17,10 @@
       cssls.enable = true;
       angularls.enable = true;
       clangd.enable = true;
-      elixirls.enable = true;
+      elixirls = {
+        enable = true;
+        cmd = [ "elixir-ls" ];
+      };
     };
     keymaps.lspBuf = {
       "gd" = "definition";
