@@ -21,6 +21,7 @@
         enable = true;
         cmd = [ "elixir-ls" ];
       };
+      pyright.enable = true;
     };
     keymaps.lspBuf = {
       "gd" = "definition";
