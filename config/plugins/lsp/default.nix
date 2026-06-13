@@ -17,6 +17,7 @@
       cssls.enable = true;
       angularls.enable = true;
       clangd.enable = true;
+      gopls.enable = true;
       elixirls = {
         enable = true;
         cmd = [ "elixir-ls" ];
