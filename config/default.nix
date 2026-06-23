@@ -24,8 +24,8 @@ _: {
     ./plugins/editor/mini-comment.nix
     ./plugins/editor/mini-sessions.nix
     ./plugins/editor/mini-pick.nix
-    ./plugins/editor/mini-pairs.nix
     ./plugins/editor/mini-notify.nix
+    ./plugins/editor/blink-pairs.nix
     ./plugins/editor/typst-preview.nix
     ./plugins/editor/competitest.nix
 
