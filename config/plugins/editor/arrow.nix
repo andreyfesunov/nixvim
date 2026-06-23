@@ -2,7 +2,7 @@
 {
   plugins.arrow = {
     enable = true;
-    settings.leader_key = ",";
+    settings.leader_key = "m";
   };
 
   keymaps = [
