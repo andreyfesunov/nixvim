@@ -1,6 +1,9 @@
 # arrow - bookmark plugin
 {
-  plugins.arrow.enable = true;
+  plugins.arrow = {
+    enable = true;
+    settings.leader_key = ",";
+  };
 
   keymaps = [
     {
